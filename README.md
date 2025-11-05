@@ -1,16 +1,54 @@
-# React + Vite
+## Fast React Pizza Co. (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Fast React Pizza Co. is a small demo storefront built with React and Vite. It showcases a simple menu of pizzas, client-side rendering with React, and static assets served from the project `public/` folder.
 
-Currently, two official plugins are available:
+This README shows how to run the project locally, build it for production, and deploy it to GitHub Pages.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Quick summary
 
-## React Compiler
+- Framework: React 19
+- Bundler/dev server: Vite
+- Repo title: Fast React Pizza Co. (see `index.html`)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Simple React component structure (Header, Menu, Footer, Pizza)
+- Static assets in `public/pizzas/` used by the menu
+- Vite for fast dev server and production builds
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Prerequisites
+
+- Node.js 16+ (Node 18+ recommended)
+- npm (or yarn/pnpm)
+
+## Install
+
+Run in the project root:
+
+```bash
+npm install
+```
+
+## Development
+
+Start the Vite dev server (hot reload):
+
+```bash
+npm run dev
+```
+
+Open your browser at http://localhost:5173 (Vite will print the exact URL).
+
+## Build & Preview
+
+Create an optimized production build:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
