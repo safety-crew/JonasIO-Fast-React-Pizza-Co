@@ -4,5 +4,5 @@ import react from "@vitejs/plugin-react";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/JonasIO-Fast-react-Pizza-Co/",
+  base: "/JonasIO-Fast-React-Pizza-Co/",
 });
